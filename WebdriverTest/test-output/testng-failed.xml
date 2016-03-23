@@ -6,13 +6,4 @@
       <class name="example.googleNG"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="example.googleNG">
-        <methods>
-          <include name="main"/>
-        </methods>
-      </class> <!-- example.googleNG -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
