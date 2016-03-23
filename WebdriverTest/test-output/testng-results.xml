@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16880" started-at="2016-03-23T10:02:11Z" finished-at="2016-03-23T10:02:28Z">
+  <suite name="Default suite" duration-ms="15579" started-at="2016-03-23T10:16:21Z" finished-at="2016-03-23T10:16:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16880" started-at="2016-03-23T10:02:11Z" finished-at="2016-03-23T10:02:28Z">
-      <class name="example.googleNG">
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:example.googleNG@531cfec]" name="loadTestThisWebsite" duration-ms="9307" started-at="2016-03-23T18:02:12Z" finished-at="2016-03-23T18:02:21Z">
+    <test name="Default test" duration-ms="15579" started-at="2016-03-23T10:16:21Z" finished-at="2016-03-23T10:16:36Z">
+      <class name="example.NewTest2">
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:example.NewTest2@531cfec]" name="loadTestThisWebsite" duration-ms="7992" started-at="2016-03-23T18:16:21Z" finished-at="2016-03-23T18:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadTestThisWebsite -->
-        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:example.googleNG@531cfec]" name="loadTestThisWebsite" duration-ms="7554" started-at="2016-03-23T18:02:21Z" finished-at="2016-03-23T18:02:28Z">
+        <test-method status="PASS" signature="loadTestThisWebsite()[pri:0, instance:example.NewTest2@531cfec]" name="loadTestThisWebsite" duration-ms="7564" started-at="2016-03-23T18:16:29Z" finished-at="2016-03-23T18:16:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadTestThisWebsite -->
-      </class> <!-- example.googleNG -->
+      </class> <!-- example.NewTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
