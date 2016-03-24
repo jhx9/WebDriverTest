@@ -15,9 +15,9 @@ public class CrossBrowser {
 @Parameters("Browser")
 public  void test1(String browser) {
  
-if(browser.equalsIgnoreCase("FF")){
+if (browser.equalsIgnoreCase("FF")) {
  
-WebDriver driver=new FirefoxDriver();
+WebDriver driver = new FirefoxDriver();
  
 driver.manage().window().maximize();
  
@@ -26,11 +26,11 @@ driver.get("http://www.facebook.com");
 driver.quit();
  
 }
-else if(browser.equalsIgnoreCase("IE")){
+else if (browser.equalsIgnoreCase("IE")) {
  
 System.setProperty("webdriver.ie.driver", "./server/IEDriverServer.exe");
  
-WebDriver driver=new InternetExplorerDriver();
+WebDriver driver = new InternetExplorerDriver();
  
 driver.manage().window().maximize();
  
